@@ -115,3 +115,31 @@ value = parseInt("3"); // Çevirir
 const a = "Hello" + 34; // Stringe otomatik Çevirir
 
 
+// DERS 6 //
+
+// ARİTMATİK OPERATÖRLER  * + / - //
+let value;
+let say2 = 6;
+let say1 = 5;
+
+value = say2 * say1;
+value = say2 + say1;
+value = say2 - say1;
+value = say2 / say1;
+value = say2 % say1;
+
+// Math //
+value = Math.PI;
+value = Math.E; // Logaritma //
+value = Math.round(3.8); // En Yakın sayıya tamamlama 
+value = Math.ceil(3.7); // Yukarı Yuvarlama 
+value = Math.floor(3.3); // Aşşağı Yuvarlama 
+value = Math.sqrt(16); // Kare Kök alma 
+value = Math.abs(16); // Mutlak Değer 
+value = Math.pow(8.3); // Üs Alma Karesi 
+value = Math.max(10,-1,100); //Yüksek sayıyı bulma
+value = Math.min(10,-1,100); //En düşük sayıyı bulma
+value = Math.random(); //Rastgele sayı
+value = Math.floor(Math.random() * 20 + 1); // 1 ile 20 arasında değerleri çevirme
+
+console.log(value)
